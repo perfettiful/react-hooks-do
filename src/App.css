@@ -22,3 +22,8 @@
   margin-bottom: 6px;
   padding: 3px 10px;
 }
+
+.heading {
+  text-decoration: line-through;
+text-align: center;
+}

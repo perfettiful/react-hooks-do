@@ -39,7 +39,7 @@ function TodoForm({ addTodo }) {
 }
 
 function App() {
-  
+
   const [todos, setTodos] = React.useState([
     {
       text: "Learn about React",
@@ -74,6 +74,11 @@ function App() {
 
   return (
     <div className="app">
+    <h1 className="heading">Strike That TODO Through 
+    <br/>
+    <code className="heading">A task tacker powered by React Hooks</code>
+    </h1>
+    
       <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo
